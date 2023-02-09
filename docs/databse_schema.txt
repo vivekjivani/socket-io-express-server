@@ -1,0 +1,25 @@
+User
+  - id (pk)
+  - firstName
+  - lastName
+  - email
+  - password
+  - createdAt
+  - updatedAt
+
+News
+  - id (pk)
+  - title
+  - subTitle
+  - description
+  - userId (fk)
+  - createdAt
+  - updatedAt
+
+Comment
+  - id (pk)
+  - message
+  - userId (fk)
+  - newsId (fk)
+  - createdAt
+  - updatedAt
