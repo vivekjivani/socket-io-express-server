@@ -8,7 +8,7 @@ Run `docker compose up` to bring up postgres and PGadmin
 
 Run `npx sequelize db:create` to create a database
 
-Run `npx sequelize db:migrate:all` to migrate all Models
+Run `npx sequelize db:migrate` to migrate all Models
 
 Run `npx sequelize db:seed:all` to seed all test data
 
@@ -18,3 +18,5 @@ UserEmail: admin@admin.com
 Password: root
 
 Refer `.env` file more information about database
+
+Run `npm start` to start the server
